@@ -18,3 +18,6 @@ When a request comes in, we check if an entry exists in the database for it. If 
 Otherwise, we get the information from rotten tomatoes, themoviedb.org or tvdb.org, store this information in our database and return it to the TV app.
 If an api key to rotten tomatoes, themoviedb.org or tvdb.org is expired or replaced, we can update it on the server.
 Therefore it does not require all TV apps to update.
+
+A video overview is available here: http://www.leosmartapp.com/overview.htm
+
