@@ -1,0 +1,38 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+/* Layout */
+body
+{
+	width: 960px;
+	height: 540px;
+	color: #ffffff;
+	background-color: #2C3539;
+}
+
+#info {
+	overflow-y:scroll;
+	height:400px;
+	border-radius:5px;
+}
+
+.infoBorder 
+{
+	/*border : 1px solid #2B65EC;*/
+	background-color: rgba(44,53,57,1) !important;
+}
+
+#list {
+    position: absolute;
+    left: 10px;
+    top: 130px;
+    width: 40%;
+}
+
+
+.sf-ui-list-itemarea { background-color:rgba(44,53,57,0.8);border-radius:5px;" }
+

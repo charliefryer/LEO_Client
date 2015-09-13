@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>LEO -Local Entertainment Organiser</title>
+		
+		<script type="text/javascript" src="$MANAGER_WIDGET/Common/OpenSrc/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/Widget.js"></script>
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/TVKeyValue.js"></script>
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/webapi/1.0/webapis.js"></script>
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/Plugin.js"></script>
+		<script type="text/javascript" src="$MANAGER_WIDGET/Common/af/2.0.0/loader.js"></script>
+
+		<script language="javascript" type="text/javascript" src="app/javascript/persistData.js?v=6"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/MainJs.js?v=7"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/navigation.js?v=10"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/processfiles.js?v=7"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/tvShows.js?v=6"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/ajaxHelper.js?v=6"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/movies.js?v=6"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/testData.js?v=6"></script>
+
+		<link rel="stylesheet" href="app/stylesheets/Main.css?v=5" type="text/css">
+
+	</head>
+
+	<body onload="Main.onLoad();" onunload="Main.onUnload();" id="appBody">
+	<div style="width:100%;padding:10px;">
+		<div style="float:left;padding:10px;">
+			<h1>L.E.O. <span style="font-size:50%;">Beta</span></h1>
+			<h2>Local Entertainment Organiser</h2>
+		</div>
+		<div style="float:right;padding-right:20px;">
+			<img src="images/tvdb.png"/>
+		</div>
+		<div style="float:right;padding-right:20px;">
+			<img src="images/rotten.png"/>
+		</div>
+		<div style="float:right;padding-right:20px;">
+			<img src="images/themoviedb.png"/>
+		</div>
+		<div style="float:right;padding-right:20px;">
+			<img src="images/LEO_logo2.png"/>
+		</div>
+		<div style="clear:both;"></div>
+		<hr style="border:0px; height: 5px; background-color: #2B65EC;color:#2B65EC;" />
+		<div style="width:40%;float:left;padding:10px;">
+			<!-- Dummy anchor as focus for key events -->
+			<a href="javascript:void(0);" id="anchor" onkeydown="Main.keyDown();"></a>
+			<div id="list">
+				<img src="images/blueloader.gif"/> Loading...
+			</div>
+		</div>
+		<div id="info" style="width:55%;float:left;padding:10px;background-color:rgba(44,53,57,0.8);">
+			<!--  <p>Browse your movies and tv shows or choose from below...</p>-->
+			<div style="width:100%;margin-top:10px;">
+				<div>
+					<center>
+						<img style="margin-top:20px;" src="images/LEO_tv2.png"/>
+					</center>
+				</div>
+			</div>
+		</p>
+		</div>
+	</div>
+	</body>
+</html>
